@@ -1,0 +1,49 @@
+ul
+{
+    background-color: white;
+    border-radius:40px ;
+}
+nav
+{
+    background-color: whitesmoke;
+    border-radius: 70px;
+}
+.btn-light
+{
+    border-radius: 40px;
+    border: 1px solid black;
+}
+.one
+{
+    background-image: url(Rectangle\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-dark
+{
+   height: 45px;
+   border-radius: 40px;
+}
+@media only screen and (max-width:1280px)
+{
+ .two
+ {
+    width: 100%;
+ }
+ .one
+ {
+    flex-direction: column
+ }
+  .three
+  {
+    flex-direction: column;
+  }
+  .thirteen
+  {
+     width: 100%;
+  }
+  .fourteen
+  {
+     width: 100%;
+  }
+}
